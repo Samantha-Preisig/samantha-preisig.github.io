@@ -88,10 +88,15 @@ body{
 }
 
 .aboutme-right{
-    /* box-sizing: border-box; */
-    background: url("images/me.jpg");
-    background-size: cover;
-    background-position: center;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 475;
+}
+
+.profile-pic{
+    width: 100%;
+    height: auto;
 }
 
 /* Portfolio styles */
