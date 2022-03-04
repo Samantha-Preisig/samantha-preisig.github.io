@@ -100,6 +100,10 @@ body{
 }
 
 /* Portfolio styles */
+.container{
+    background: #000000;
+}
+
 .portfolio-items-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -138,7 +142,7 @@ body{
 .portfolio-img3-background{
     height: 350px;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/teddy-fresh.jpg)
@@ -147,7 +151,7 @@ body{
 .portfolio-img4-background{
     height: 350px;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/pennywise.jpg)
@@ -156,7 +160,7 @@ body{
 .portfolio-img5-background{
     height: 350px;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/neytiri.jpg)
@@ -165,7 +169,7 @@ body{
 .portfolio-img6-background{
     height: 350px;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/beth-harmon.jpg)
@@ -174,7 +178,7 @@ body{
 .portfolio-img7-background{
     height: 350px;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/cyberpunk.jpg)
@@ -183,7 +187,7 @@ body{
 .portfolio-img8-background{
     height: 350px;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/hand.jpg)
