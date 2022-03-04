@@ -109,13 +109,94 @@ body{
     position: relative;
 }
 
-.portfolio-img-background{
+/* .portfolio-img-background{
     height: 350px;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+} */
+
+.portfolio-img1-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(images/portfolio/jimmy-alonzo-inspired.jpg)
 }
+
+.portfolio-img2-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(images/portfolio/walter-white.jpg)
+}
+
+.portfolio-img3-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(images/portfolio/teddy-fresh.jpg)
+}
+
+.portfolio-img4-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(images/portfolio/pennywise.jpg)
+}
+
+.portfolio-img5-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(images/portfolio/neytiri.jpg)
+}
+
+.portfolio-img6-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(images/portfolio/beth-harmon.jpg)
+}
+
+.portfolio-img7-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(images/portfolio/cyberpunk.jpg)
+}
+
+.portfolio-img8-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(images/portfolio/hand.jpg)
+}
+
+/* .portfolio-img9-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(images/portfolio/???.jpg)
+} */
 
 .img-text-wrapper{
     position: absolute;
