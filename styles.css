@@ -100,10 +100,6 @@ body{
 }
 
 /* Portfolio styles */
-.container{
-    background-color: #000000;
-}
-
 .portfolio-items-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -124,7 +120,7 @@ body{
 .portfolio-img1-background{
     height: 350px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/jimmy-alonzo-inspired.jpg)
@@ -133,7 +129,7 @@ body{
 .portfolio-img2-background{
     height: 350px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/walter-white.jpg)
@@ -142,7 +138,7 @@ body{
 .portfolio-img3-background{
     height: 350px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/teddy-fresh.jpg)
@@ -151,7 +147,7 @@ body{
 .portfolio-img4-background{
     height: 350px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/pennywise.jpg)
@@ -160,7 +156,7 @@ body{
 .portfolio-img5-background{
     height: 350px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/neytiri.jpg)
@@ -169,7 +165,7 @@ body{
 .portfolio-img6-background{
     height: 350px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/beth-harmon.jpg)
@@ -178,7 +174,7 @@ body{
 .portfolio-img7-background{
     height: 350px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/cyberpunk.jpg)
@@ -187,7 +183,7 @@ body{
 .portfolio-img8-background{
     height: 350px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/hand.jpg)
