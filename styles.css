@@ -129,7 +129,7 @@ body{
 .portfolio-img2-background{
     height: 350px;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(images/portfolio/walter-white.jpg)
