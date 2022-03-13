@@ -170,13 +170,17 @@ body{
     text-align: center;
     color:#fff
 }
-.about-right h1{
+/* .about-right h1{
     font-size: 5rem;
     text-transform: uppercase;
 }
 .about-right h1 span{
     color: lightseagreen;
 }
+.about-right img{
+    width: auto;
+    height: 200px;
+} */
 .about-right h2{
     font-weight: 600;
 }

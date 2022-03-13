@@ -72,7 +72,11 @@
         </div>
   
         <div class = "about-right">
-          <h1>G'DAY<span>!</span></h1>
+          <!-- <h1>G'DAY<span>!</span></h1> -->
+          <video height="200px" width="auto" muted autoplay>
+            <source src="animations/typing.mp4" type="video/mp4">
+            Your browser does not support this video
+          </video>
           <h2></h2>
           <!-- <div class = "about-btns">
             <button type = "button" class = "btn btn-pink">Resume</button>
@@ -84,10 +88,17 @@
           </div>
   
           <div class = "about-para">
-            <p>I'm a computer science student at the University of Guelph, minoring in mathematics. I'm currently seeking a Summer 2022 internship.</p>
+            <p>I'm a computer science student at the University of Guelph, minoring in Mathematics. I'm currently seeking a Summer 2022 internship.</p>
             <p>In my free time, I create digital art and animations. Check out my recent artwork in my portfolio above!</p>
           </div>
         </div>
       </div>
 </body>
+<script>
+  // Keeps typing animation in a loop
+  document.getElementsByTagName('video')[0].onended = function () {
+    this.load();
+    this.play();
+  };
+</script>
 </html>
