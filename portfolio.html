@@ -122,7 +122,7 @@
             <!-- ARTWORK #9 (animation) -->
             <div class="portfolio-item-wrapper">
                 <!-- <div class="portfolio-img-background"> -->
-                    <video height="350px" width="100%" controls>
+                    <video height="350px" width="100%" muted autoplay>
                         <source src="animations/wip_animation.mp4" type="video/mp4">
                         Your browser does not support this video
                     </video>
@@ -148,5 +148,11 @@
             portfolioItem.childNodes[1].classList.remove('img-darken');
         });
     });
+
+    // Keeps typing animation in a loop
+    document.getElementsByTagName('video')[0].onended = function () {
+        this.load();
+        this.play();
+    };
 </script>
 </html>
