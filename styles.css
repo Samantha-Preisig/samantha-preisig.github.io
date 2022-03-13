@@ -56,7 +56,7 @@ body{
     height: 100vh;
 }
 .about-left{
-    background-image: url("home_page_bg.png");
+    background-image: url("images/home_page_bg.png");
     background-size: contain;
     /* background-color: #FFEA00; */
     display: flex;
