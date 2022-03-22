@@ -1,0 +1,82 @@
+/* Master styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #12192c;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Nav bar */
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+.right-side{
+    display: flex;
+}
+.nav-wrapper > .right-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+.nav-link-wrapper a:hover{
+    color: black;
+}
+.active-nav-link{
+    border-bottom: 1px solid black;
+    color: black !important;
+}
+
+/* Portfolio */
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+    height: 60vh;
+    flex-grow: 3;
+}
+#artwork img, video{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: contain;
+    vertical-align: bottom;
+    animation: fade-in 3s;
+    /* filter: drop-shadow(16px 16px 20px black); */
+}
+/* #artwork img:hover, video:hover{
+    z-index: 5;
+    transform: scale(1.1);
+}
+li:last-child{
+    flex-grow: 10;
+}
+@keyframes fade-in{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+} */

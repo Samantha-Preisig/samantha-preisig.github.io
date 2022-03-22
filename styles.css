@@ -7,49 +7,9 @@
     box-sizing: border-box;
 }
 body{
+    background: #12192c;
     font-family: 'Ubuntu', sans-serif;
 }
-.container{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-/* Nav bar */
-/* .nav-wrapper{
-    display: flex;
-    justify-content: space-between;
-    padding: 38px;
-}
-.right-side{
-    display: flex;
-}
-.nav-wrapper > .right-side > div{
-    margin-right: 20px;
-    font-size: 0.9em;
-    text-transform: uppercase;
-}
-.nav-link-wrapper{
-    height: 22px;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
-}
-.nav-link-wrapper a{
-    color: #8a8a8a;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-.nav-link-wrapper:hover{
-    border-bottom: 1px solid black;
-}
-.nav-link-wrapper a:hover{
-    color: black;
-}
-.active-nav-link{
-    border-bottom: 1px solid black;
-}
-.active-nav-link{
-    color: black !important;
-} */
 
 /* Home page */
 .about-wrapper{
@@ -137,22 +97,11 @@ body{
     background: #edffec;
     color: #000;
 }
-.linkedin-img img{
+.linkedin-img img, .github-img img{
     display: block;
     width: 25px;
 }
-.linkedin-img{
-    width: 25px;
-    height: 25px;
-    overflow: hidden;
-    border-radius: 50%;
-    transition: all 0.5s ease-in-out;
-}
-.github-img img{
-    display: block;
-    width: 25px;
-}
-.github-img{
+.linkedin-img, .github-img{
     width: 25px;
     height: 25px;
     overflow: hidden;
@@ -170,17 +119,6 @@ body{
     text-align: center;
     color:#fff
 }
-/* .about-right h1{
-    font-size: 5rem;
-    text-transform: uppercase;
-}
-.about-right h1 span{
-    color: lightseagreen;
-}
-.about-right img{
-    width: auto;
-    height: 200px;
-} */
 .about-right h2{
     font-weight: 600;
 }
@@ -188,7 +126,7 @@ body{
     display: flex;
     margin: 2rem 0;
 }
-.resume-button{
+.resume-button, .portfolio-button{
     border: none;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -200,39 +138,15 @@ body{
     background: transparent;
     margin: 0 0.5rem;
     cursor: pointer;
-    color:#fff
-}
-.portfolio-button{
-    border: none;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    border: 2px solid #fff;
-    border-radius: 20px;
-    padding: 0.55rem 0;
-    width: 130px;
-    font-weight: 600;
-    background: transparent;
-    margin: 0 0.5rem;
-    cursor: pointer;
-    color:#fff
-}
-.resume-button{
+    color:#fff;
     background: lightseagreen;
-    color: #fff;
+    /* color: #fff; */
     border-color: lightseagreen;
     transition: all 0.5s ease-in-out;
 }
-.resume-button:hover{
+.resume-button:hover, .portfolio-button:hover{
     background: transparent;
     border-color: #fff;
-    color: #fff;
-}
-.portfolio-button{
-    transition: all 0.5s ease-in-out;
-}
-.portfolio-button:hover{
-    background: lightseagreen;
-    border-color: lightseagreen;
     color: #fff;
 }
 .about-para p{
@@ -290,51 +204,4 @@ body{
 .profile-pic{
     width: 100%;
     height: auto;
-}
-
-/* Portfolio */
-.portfolio-items-wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.portfolio-item-wrapper{
-    position: relative;
-}
-.portfolio-img-background{
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.img-text-wrapper{
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-.img-text-wrapper .subtitle{
-    transition: 1s;
-    font-weight: 600;
-    color: transparent;
-}
-.img-text-wrapper:hover .subtitle{
-    font-weight: 600;
-    color: lightseagreen;
-}
-.img-darken{
-    transition: 1s;
-    filter: brightness(10%);
-}
-.img-resume{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50;
 }
